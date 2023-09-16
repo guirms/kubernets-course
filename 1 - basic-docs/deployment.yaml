@@ -15,7 +15,7 @@ spec:
         app: app-html
     spec:
       containers:
-      - name: pod-html
+      - name: app-html # Esse tem que ser igual ao do pod
         image: httpd:latest
         resources:
           limits:
